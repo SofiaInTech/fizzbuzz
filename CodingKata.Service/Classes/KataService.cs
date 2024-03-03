@@ -6,6 +6,11 @@ public class KataService : IKataService
 {
     public string CalculateFizzBuzzResult(int number)
     {
+        if (number % 3 == 0)
+        {
+            return "Fizz";
+        }
+
         if (number % 5 == 0)
         {
             return "Buzz";
@@ -14,4 +19,3 @@ public class KataService : IKataService
         return number.ToString();
     }
 }
-

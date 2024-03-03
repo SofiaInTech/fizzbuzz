@@ -13,13 +13,10 @@ public class KataServiceTests
         _kataService = new KataService();
     }
 
-    [Test]
-    public void CalculateFizzBuzzResult()
+    [TestCase(5, "Buzz")]
+    [TestCase(6, "Fizz")]
+    public void CalculateFizzBuzzResult(int number, string expectedResult)
     {
-        // Arrange
-        var number = 5;
-        var expectedResult = "Buzz";
-
         // Act
         var actualResult = _kataService.CalculateFizzBuzzResult(number);
 
