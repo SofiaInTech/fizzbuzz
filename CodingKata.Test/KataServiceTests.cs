@@ -15,6 +15,7 @@ public class KataServiceTests
 
     [TestCase(5, "Buzz")]
     [TestCase(6, "Fizz")]
+    [TestCase(15, "Fizzbuzz")]
     public void CalculateFizzBuzzResult(int number, string expectedResult)
     {
         // Act
