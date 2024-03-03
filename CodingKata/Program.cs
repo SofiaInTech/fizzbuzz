@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CodingKata;
 
+Console.WriteLine("Coding Kata Challenge - Fizz Buzz");
+Console.WriteLine("---------------------------------");
+
+KataFunctions.FizzBuzz();
