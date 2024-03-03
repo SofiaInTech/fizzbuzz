@@ -7,4 +7,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodingKata.Service\CodingKata.Service.csproj" />
+  </ItemGroup>
 </Project>
