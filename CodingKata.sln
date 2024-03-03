@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1706.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKata", "CodingKata\CodingKata.csproj", "{6A72B55E-FB34-49BC-A99C-DDE7E72E3316}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKata.Service.Test", "CodingKata.Test\CodingKata.Service.Test.csproj", "{582BED88-D0ED-4F20-9A01-B1E098ACD113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKata.Service", "CodingKata.Service\CodingKata.Service.csproj", "{0B3DD7AC-BE0A-4FA5-9B31-543ECAA86D99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6A72B55E-FB34-49BC-A99C-DDE7E72E3316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A72B55E-FB34-49BC-A99C-DDE7E72E3316}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A72B55E-FB34-49BC-A99C-DDE7E72E3316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582BED88-D0ED-4F20-9A01-B1E098ACD113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582BED88-D0ED-4F20-9A01-B1E098ACD113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582BED88-D0ED-4F20-9A01-B1E098ACD113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582BED88-D0ED-4F20-9A01-B1E098ACD113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3DD7AC-BE0A-4FA5-9B31-543ECAA86D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3DD7AC-BE0A-4FA5-9B31-543ECAA86D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3DD7AC-BE0A-4FA5-9B31-543ECAA86D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3DD7AC-BE0A-4FA5-9B31-543ECAA86D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
