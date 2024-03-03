@@ -24,7 +24,7 @@ public class KataService : IKataService
             return "Buzz";
         }
 
-        // If neither - return just the number.
+        // If none of the above - return just the number.
         return number.ToString();
     }
 }
